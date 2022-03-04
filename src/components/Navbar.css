@@ -1,0 +1,96 @@
+.navbar-main-div {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.main-logo {
+    width: 7%;
+    height: auto;
+    float: left;
+    margin-left: 13%;
+    margin-top: 7px;
+    flex: 30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    height: 100px;
+}
+
+.div-li {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    padding: 34px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    flex: 60%;
+    font-weight: 700px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a.home:not(.active) {
+    background-color: #000000;
+    text-decoration: underline;
+}
+
+li a::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #ffffff;
+    display: block;
+    transition: 0.25s ease-in-out;
+}
+
+li a:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+}
+
+.btn-register {
+    padding: 14px 30px;
+    text-align: right;
+    font-size: 16px;
+    flex: 10%;
+    margin-right: 250px;
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 13px;
+}
+
+.btn-register:hover {
+    background-color: #064216;
+}
+
+.btn-register:active {
+    background-color: #064216;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}

@@ -1,0 +1,31 @@
+   .zero-fee-platform {
+       height: 425px;
+       border: 20px;
+       background-color: white;
+       width: 100%;
+   }
+   
+   .img-div-zero-fee-container {
+       width: 40%;
+       float: left;
+   }
+   
+   .img-zero-fee {
+       display: inline-block;
+       margin-left: 35%;
+       width: 72%;
+       height: 425px;
+   }
+   
+   .text-div-zero-fee-container {
+       width: 60%;
+   }
+   
+   h2 {
+       color: #0e8224;
+   }
+   
+   span {
+       font-size: 30px;
+       text-align: center;
+   }
